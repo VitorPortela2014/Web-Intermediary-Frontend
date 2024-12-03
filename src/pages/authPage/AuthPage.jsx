@@ -7,14 +7,14 @@ function AuthPage() {
     const [registerPage, setRegisterPage] = useState(true);
 
     const registerHook = async (data) => {
-        const response = await axios.post("https://web-intermediary-frontend.onrender.com/auth/register",data);
+        const response = await axios.post(" ",data);
         if (response.status === 200) {
             console.log("registrou");
         }
     };
 
     const loginHook = async (data) => {
-        const response = await axios.post("https://web-intermediary-frontend.onrender.com/auth/login", data);
+        const response = await axios.post(" ", data);
         if (response.status === 200) {
             console.log("logou", response.data.token);
         }

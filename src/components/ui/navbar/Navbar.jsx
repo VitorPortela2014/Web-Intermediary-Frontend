@@ -7,6 +7,7 @@ function Navbar() {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/products">Produtos</NavLink>
             <NavLink to="/auth">Sessão</NavLink>
+            <NavLink to="/musica">Musicas</NavLink>
         </nav>
     );
 }
