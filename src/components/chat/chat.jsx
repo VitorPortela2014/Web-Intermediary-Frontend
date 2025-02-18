@@ -19,7 +19,7 @@ export default function Chat({socket}) {
   }, [socket]);
 
   useEffect(() => {
-    scrollDown();
+    scrollDown(); 
   }, [messageList]);
 
   const handleSubmit = () => {
