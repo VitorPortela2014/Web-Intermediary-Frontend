@@ -7,7 +7,9 @@ function Navbar() {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/products">Produtos</NavLink>
             <NavLink to="/auth">Sessão</NavLink>
-            <NavLink to="/musica">Musicas</NavLink>
+            <NavLink to="/pokemons">Pokemom</NavLink>
+            <NavLink to="/chat">Chat</NavLink>
+
         </nav>
     );
 }

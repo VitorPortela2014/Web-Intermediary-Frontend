@@ -4,6 +4,8 @@ import ProductPage from "./pages/product/ProductPage";
 import HomePage from "./pages/home/HomePage";
 import AuthPage from "./pages/authPage/AuthPage";
 import MusicPage from "./pages/musicPage/MusicPage";
+import PokemomPage from "./pages/PokemomPages/PokemomPage"
+import ChatPage from "./pages/chatpage/ChatPage";
 
 export const router = createBrowserRouter([
     {
@@ -29,6 +31,15 @@ export const router = createBrowserRouter([
             {
                 path: "/musica",
                 element: <MusicPage />
+            },
+            {
+                path:"/pokemons",
+                element: <PokemomPage></PokemomPage>
+
+            },
+            {
+                path: "/chat",
+                element: <ChatPage />
             }
         ],
     },

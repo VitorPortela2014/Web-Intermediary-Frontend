@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+                                                                                                                                                                            import React, { useEffect, useState } from "react";
 import AddButton from "../../components/ui/addbutton/AddButton";
-import Modal from "../../components/modal/Modal";
+import Modal from "../../components/modal/Modal";                   
 import axios from "axios";
 import Product from "../../components/product/Product";
 

@@ -9,4 +9,4 @@ export const UpdateMusic = async ({ nome, cantor, genero, nota, id }) => {
         id
     });
     return data;
-};
+};	
