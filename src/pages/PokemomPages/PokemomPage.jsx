@@ -1,5 +1,5 @@
 import React from "react";
-import PokemonList from "../../components/Pokemom/pokemomList/PokemomList.jsx";
+import PokemonList from "../../components/Pokemom/pokemomList/PokemomList";
 
 function Pokemon() {
   return (

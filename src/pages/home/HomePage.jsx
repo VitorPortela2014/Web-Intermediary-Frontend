@@ -2,8 +2,8 @@ import React from 'react'
 import './HomePage.css'
 function HomePage() {
     return (
-        <div >
-            HOMEZADA
+        <div>
+            <p>Home Page</p>
         </div>
     )
 }

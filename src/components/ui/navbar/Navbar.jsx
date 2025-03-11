@@ -6,9 +6,10 @@ function Navbar() {
         <nav>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/products">Produtos</NavLink>
-            <NavLink to="/auth">Sessão</NavLink>
+            <NavLink to="/musica">Musica</NavLink>
             <NavLink to="/pokemons">Pokemom</NavLink>
             <NavLink to="/chat">Chat</NavLink>
+            <NavLink to="/auth">Cadastre-se</NavLink>
 
         </nav>
     );

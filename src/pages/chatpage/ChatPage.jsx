@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Chat from '../..//components/chat/chat'
+import Chat from '../../components/chat/Chat'
 import Join from '../../components/join/Join'
 
 function ChatPage() {

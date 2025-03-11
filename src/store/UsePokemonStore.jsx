@@ -1,25 +1,23 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
-const UsePokemonStore = create((set) => ({
-    selectPokemons: [], 
-    togglePokemon: (pokemon) => 
+const usePokemonStore = create((set) => ({
+    selectedPokemons: [], //lista de pokemons selecionados
+    // função para adicionar um pokemon a lista
+    togglePokemon: (pokemon) =>
         set((state) => {
-            const isSelectd = state.selectedPokemons.some(
+            // Verifica se o pokemon selecionado ja esta dentro da lista
+            const isSelected = state.selectedPokemons.some(
                 (p) => p.id === pokemon.id
-
 
             )
 
-            return {
-                selectedPokemons: isSelectd
-                ? state.selectedPokemons.filter((p) => p.id !== pokemon.id)
-                : [...state.selectedPokemons, pokemon],
-
-
+            return { // se o pokemon ja havia sido selecionado, remove ele da lista se não add
+                selectedPokemons: isSelected
+                    ? state.selectedPokemons.filter((p) => p.id !== pokemon.id)
+                    : [...state.selectedPokemons, pokemon],
+                
             };
-
-
         }),
 }));
 
-export default UsePokemonStore;
+export default usePokemonStore;
